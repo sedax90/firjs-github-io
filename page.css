@@ -10,3 +10,23 @@ body {
 .draggable {
   cursor: move;
 }
+
+.label-icon {
+  transform: scale(0.6) translate(15px, 15px);
+}
+
+g.label-icon path {
+  fill: currentColor;
+}
+
+div.label-icon {
+  transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+div.label-icon i {
+  font-size: 20px;
+}
